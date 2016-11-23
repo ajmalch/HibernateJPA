@@ -12,7 +12,7 @@ public class Client {
 	public static void main(String[] args) {
 		
 		Student s1=new Student();
-		s1.setName("Shadiya");
+		s1.setName("Maliha");
 		s1.setAge(25);
 		s1.setId(1);
 		Session s= HibernateUtil.getSessionFactory().openSession();
